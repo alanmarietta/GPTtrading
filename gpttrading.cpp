@@ -31,8 +31,8 @@ int main() {
             curl_easy_setopt(curl, CURLOPT_URL, url.c_str());
 
             struct curl_slist *headers = NULL;
-            headers = curl_slist_append(headers, "APCA-API-KEY-ID: PKO3RZBLQ0QU5NSTGBDY");
-            headers = curl_slist_append(headers, "APCA-API-SECRET-KEY: YpvjSz8Z34IEpdu8MZ1BdGUAPDOfqan7VmKmQqyV");
+            headers = curl_slist_append(headers, "APCA-API-KEY-ID: INSERT KEY HERE");
+            headers = curl_slist_append(headers, "APCA-API-SECRET-KEY: INSERT KEY HERE");
             curl_easy_setopt(curl, CURLOPT_HTTPHEADER, headers);
             curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, WriteCallback);
             curl_easy_setopt(curl, CURLOPT_WRITEDATA, &responseString);
