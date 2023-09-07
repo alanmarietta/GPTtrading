@@ -1,7 +1,7 @@
 import openai
 import sys
 
-openai.api_key = "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"
+openai.api_key = "INSERT KEY HERE"
 
 def get_advice(percentage_change, current_price):
     # Prepare the input for GPT-3 based on the received data
