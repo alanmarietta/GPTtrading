@@ -14,6 +14,7 @@ static size_t WriteCallback(void *contents, size_t size, size_t nmemb, std::stri
 }
 
 int main() {
+    // Getting information
     std::map<std::string, double> lastTradePrices;
     std::vector<std::string> symbols = {
         "AAPL", "MSFT", "AMZN", "FB", "GOOGL",
